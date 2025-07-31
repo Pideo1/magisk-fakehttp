@@ -13,7 +13,7 @@ function check_fakehttp_is_up() {
     while [ $counter -lt $timeout ]; do
         local result="$(busybox pgrep 'fakehttp')"
         if [ $result -gt 0 ]; then
-            echo "[-] FakeHttp is running... 💉😜"
+            echo "[+] FakeHttp is running... 💉😜"
             string="description=Run fakehttp on boot: ✅ (active)"
             break
         else
