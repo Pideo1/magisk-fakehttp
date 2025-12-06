@@ -21,7 +21,7 @@ load_config() {
         return 0
     else
         interface="wlan0"
-        hostname="www.speedtest.cn"
+        hostname="contentcenter-drcn.dbankcdn.com"
         logfile="/sdcard/.fakehttp.log"
         silent="1"
         return 0

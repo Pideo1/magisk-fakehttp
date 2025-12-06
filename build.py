@@ -81,7 +81,7 @@ def create_module_conf(path: Path):
 # network interface name (required)
 interface="wlan0"
 # hostname for obfuscation (required)
-hostname="www.speedtest.cn"
+hostname="contentcenter-drcn.dbankcdn.com"
 # fwmark for bypassing the queue (default: 0x8000)
 #mark=""
 # set the mask for fwmark (default: 0)
